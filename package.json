@@ -1,7 +1,19 @@
 {
 	"name": "@albizures/prettier-config",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
-	"author": "Jose Albizures <jose@albizures.com>",
-	"license": "MIT"
+	"author": {
+		"email": "albizures@vk.com",
+		"name": "Jose Albizures",
+		"url": "https://albizures.com"
+	},
+	"files": [
+		"index.js",
+		"svelte.js"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@albizures/commitlint": "^0.1.0",
+		"husky": "^7.0.4"
+	}
 }
